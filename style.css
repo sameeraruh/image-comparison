@@ -1,0 +1,26 @@
+.img-comp-container {
+  position: relative;
+  width: 1200px;
+  height: 720px;
+  overflow: hidden;
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-overlay {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
